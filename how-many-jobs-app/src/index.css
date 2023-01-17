@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.boldWhiteClass {
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin: 190px;
+}
+
+.appliedTo {
+  color:aliceblue;
+  text-align: end;
+  border: 100px solid white;
 }
