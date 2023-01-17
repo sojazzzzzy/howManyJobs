@@ -6,8 +6,19 @@ import './index.css';
 class AppliedTo extends Component {
 	render() {
 		return (
-			<div class='appliedTo'>
-				<h1>applied to?</h1>
+			<div class='flex-container'>
+				<div class='appliedTo'>
+					<h1>applied to?</h1>
+				</div>
+				<div class='receivedOffer'>
+					<h1>received offer from?</h1>
+				</div>
+				<div class='interviewScheduled'>
+					<h1>gotten an interview with?</h1>
+				</div>
+				<div class='beenDenied'>
+					<h1>been denied?</h1>
+				</div>
 			</div>
 		);
 	}

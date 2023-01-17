@@ -13,6 +13,13 @@ code {
     monospace;
 }
 
+.flex-container {
+  display: flex;
+  gap: 30px;
+  /* background-color: aqua; */
+  justify-content: space-between;
+}
+
 .boldWhiteClass {
   color: white;
   text-align: center;
@@ -24,5 +31,31 @@ code {
 .appliedTo {
   color:aliceblue;
   text-align: end;
-  border: 100px solid white;
+  border: 3px solid white;
+  display:inline;
+  justify-content: space-between;
+  
 }
+.receivedOffer {
+  color: aliceblue;
+  text-align: end;
+  border: 3px solid white;
+  display: inline;
+  justify-content: space-between;
+}
+
+.interviewScheduled {
+    color: aliceblue;
+    text-align: end;
+    border: 3px solid white;
+    display: inline;
+    justify-content: space-between;
+  }
+
+    .beenDenied {
+      color: aliceblue;
+      text-align: end;
+      border: 3px solid white;
+      display: inline;
+      justify-content: space-around;
+    }
