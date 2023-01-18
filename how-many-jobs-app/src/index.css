@@ -33,15 +33,12 @@ code {
   text-align: end;
   border: 3px solid white;
   display:inline;
-  justify-content: space-between;
-  
 }
 .receivedOffer {
   color: aliceblue;
   text-align: end;
   border: 3px solid white;
   display: inline;
-  justify-content: space-between;
 }
 
 .interviewScheduled {
@@ -57,5 +54,14 @@ code {
       text-align: end;
       border: 3px solid white;
       display: inline;
-      justify-content: space-around;
+      justify-content: space-between;
+    }
+
+    .tabButtons {
+      background-color: black;
+      color: white;
+      font-size: large;
+      border-radius: 4px;
+      cursor: pointer;
+      border-color: aliceblue;
     }

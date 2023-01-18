@@ -1,27 +1,53 @@
 import React, { Component } from 'react';
 import './index.css';
+import InterviewScheduled from './InterviewScheduled';
+import ReceivedOffer from './ReceivedOffer';
+import BeenDenied from './BeenDenied';
 // the idea is to have a viewable counter to the left of "applied to" that goes up everytime I click the button. The whole div can be a large button
 // every time I apply for a job, I click the button and update the counter
 
+
 class AppliedTo extends Component {
+	constructor(props) {
+		super();
+		this.state = {
+			counter: 0,
+		};
+	}
+	handleClick = (e) => {
+		this.setState({
+			counter: this.state.counter + 1,
+		});
+	};
 	render() {
 		return (
 			<div class='flex-container'>
 				<div class='appliedTo'>
-					<h1>applied to?</h1>
-				</div>
-				<div class='receivedOffer'>
-					<h1>received offer from?</h1>
-				</div>
-				<div class='interviewScheduled'>
-					<h1>gotten an interview with?</h1>
-				</div>
-				<div class='beenDenied'>
-					<h1>been denied?</h1>
+					<button class='tabButtons' onClick={this.handleClick}>applied to?</button>
+					<div>you've applied to {this.state.counter} jobs</div>
+					<BeenDenied />
+					<InterviewScheduled />
+					<ReceivedOffer />
 				</div>
 			</div>
 		);
 	}
 }
 
+
+
 export default AppliedTo;
+
+
+// class AppliedTo extends Component {
+// 	render() {
+// 		return (
+// 			<div class='flex-container'></div>
+
+//             				<ReceivedOffer />
+// 				<InterviewScheduled />
+// 				<BeenDenied />
+// 			</div>
+// 		);
+// 	}
+// }
