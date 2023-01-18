@@ -17,13 +17,12 @@ class ReceivedOffer extends Component {
     render (){
         return (
 					<div class='flex-container'>
-						<div class='receivedOffer'>
 							<button class='tabButtons' onClick={this.handleClick}>
 								received offer from?
 							</button>
-							<div>you've had {this.state.counter} job offers!</div>
-						</div>
-					</div>
+							<div class='receivedOffer'>you've had {this.state.counter} job offers!</div>
+						 </div>
+					
 				);
     }
 }

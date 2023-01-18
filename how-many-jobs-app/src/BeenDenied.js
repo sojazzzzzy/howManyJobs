@@ -15,14 +15,14 @@ class BeenDenied extends Component {
 	};
 	render() {
 		return (
-			<div class='flex-container'>
+			// <div class='flex-container'>
 				<div class='beenDenied'>
 					<button class='tabButtons' onClick={this.handleClick}>
 						been denied?
 					</button>
-					<div>you've been denied {this.state.counter} jobs</div>
+					{/* <div>you've been denied {this.state.counter} jobs</div> */}
 				</div>
-			</div>
+			// </div>
 		);
 	}
 }

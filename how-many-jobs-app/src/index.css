@@ -15,9 +15,9 @@ code {
 
 .flex-container {
   display: flex;
-  gap: 30px;
-  /* background-color: aqua; */
-  justify-content: space-between;
+  background-color: aqua;
+  align-items: center;
+  
 }
 
 .boldWhiteClass {
@@ -25,43 +25,33 @@ code {
   text-align: center;
   border: 2px solid white;
   border-radius: 3px;
-  margin: 190px;
+  margin: 90px;
 }
 
 .appliedTo {
   color:aliceblue;
-  text-align: end;
-  border: 3px solid white;
-  display:inline;
 }
 .receivedOffer {
   color: aliceblue;
-  text-align: end;
-  border: 3px solid white;
-  display: inline;
+  background-color: black; 
+  align-items: right; 
 }
 
 .interviewScheduled {
     color: aliceblue;
-    text-align: end;
-    border: 3px solid white;
-    display: inline;
-    justify-content: space-between;
   }
 
-    .beenDenied {
+.beenDenied {
       color: aliceblue;
-      text-align: end;
-      border: 3px solid white;
-      display: inline;
-      justify-content: space-between;
     }
 
-    .tabButtons {
+.tabButtons {
       background-color: black;
       color: white;
       font-size: large;
       border-radius: 4px;
       cursor: pointer;
-      border-color: aliceblue;
+      border: 2px solid white;
+      padding: 10px;
+      margin: 5px;   
     }

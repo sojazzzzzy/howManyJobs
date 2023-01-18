@@ -24,10 +24,10 @@ class AppliedTo extends Component {
 			<div class='flex-container'>
 				<div class='appliedTo'>
 					<button class='tabButtons' onClick={this.handleClick}>applied to?</button>
-					<div>you've applied to {this.state.counter} jobs</div>
-					<BeenDenied />
-					<InterviewScheduled />
-					<ReceivedOffer />
+					{/* <div>you've applied to {this.state.counter} jobs</div> */}
+				<div><BeenDenied /> </div>
+				<div><InterviewScheduled /></div>
+				<div><ReceivedOffer /></div>
 				</div>
 			</div>
 		);

@@ -15,14 +15,14 @@ class InterviewScheduled extends Component {
 	};
 	render() {
 		return (
-			<div class='flex-container'>
+			// <div class='flex-container'>
 				<div class='interviewScheduled'>
 					<button class='tabButtons' onClick={this.handleClick}>
 						gotten an interview with?
 					</button>
-					<div>you've had {this.state.counter} interviews</div>
+					{/* <div>you've had {this.state.counter} interviews</div> */}
 				</div>
-			</div>
+			// </div>
 		);
 	}
 }
